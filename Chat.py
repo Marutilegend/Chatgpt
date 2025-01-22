@@ -28,4 +28,4 @@ def chat():
 
 if __name__ == '__main__':
     # Make the app accessible on the local network
-    app.run(debug=True, host='0.0.0.0')
+    app.run(debug=True, host='192.0.0.4')
