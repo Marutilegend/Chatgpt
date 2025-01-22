@@ -5,7 +5,7 @@ app = Flask(__name__)
 # Add a route for the homepage
 @app.route('/')
 def home():
-    return "Welcome to the Flask Chatbot!"
+    return "Welcome to the maruti Chatbot!"
 
 # Add the chatbot functionality
 @app.route('/chat', methods=['POST'])
