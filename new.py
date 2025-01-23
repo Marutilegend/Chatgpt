@@ -12,7 +12,7 @@ SEARCH_ENGINE_ID = "10dbd8960b175409f"  # Your provided Search Engine ID
 # Add a route for the homepage
 @app.route('/')
 def home():
-    return "Welcome to the Flask Chatbot with Google Search and Language Support!"
+    return "Welcome to the maruti Chatbot with Google Search and Language Support!"
 
 # Add the chatbot functionality
 @app.route('/chat', methods=['POST'])
